@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightslategray;
+}
+
+header, footer {
+  background-color: #4ca9ce;
+  color: rgb(241, 164, 215);
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: rgb(166, 91, 64);
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid rgb(163, 153, 155);
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Garis tabel */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Warna judul kolom */
+th {
+  background-color: #5f7b9c;  /* biru */
+  color: rgb(156, 15, 15);
+  padding: 10px;
+}
+
+/* Warna isi tabel */
+td {
+  background-color: #29577f;  /* biru muda */
+  padding: 10px;
+}
+
+/* Efek hover (sorot saat mouse diarahkan) */
+tr:hover td {
+  background-color: #8098ae;
+}
+/* Container form */
+form {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee); /* gradasi lembut */
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 420px;
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+form:hover {
+  transform: scale(1.02); /* sedikit membesar saat hover */
+}
+
+/* Judul form */
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+  font-weight: 600;
+}
+
+/* Label */
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Input dan textarea */
+input[type="text"], 
+input[type="email"], 
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fafafa;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus, 
+textarea:focus {
+  border-color: #a770ef;
+  box-shadow: 0 0 8px rgba(167,112,239,0.4);
+  outline: none;
+  background: #fff;
+}
+
+/* Tombol submit */
+input[type="submit"] {
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+/* --- Aesthetic ABOUT page --- */
+.about-card {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-card h2 {
+  margin-top: 15px;
+  color: #444;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-card p {
+  margin: 15px 0;
+  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.highlight {
+  background: linear-gradient(120deg, #a770ef, #fdb99b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
